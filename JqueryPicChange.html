@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>JQuery Picture Change</title>
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/style.css">
+        
+        <style>
+            .main-image{
+                height: 350px;
+                width: 450px;
+                border: 1px solid;
+            }
+            .sub-image{
+                height: 50px;
+                width: 109px;
+                border: 1px solid gray;
+            }
+        </style>
+        
+        
+    </head>
+
+    <body>
+
+        <table>
+            <tr>
+                <th>First Name:</th>
+                <td><input type="text" name="first_name" id="firstName"></td>
+            </tr>
+            <tr>
+                <th>Last Name:</th> 
+                <td><input type="text" name="last_name" id="lastName"></td>
+            </tr>
+        </table>
+        <br> <br>
+        
+        <table border="1">
+            <tr>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Full Name</th>
+            </tr>
+            <tr>
+                <td id="one"></td>
+                <td id="two"></td>
+                <td id="three"></td>
+            </tr>
+        </table>
+        <br> <br> 
+<!--- =================== --->
+<hr/>
+
+<div align="center">
+	<h3> Please Click The Image Below</h3>
+    <img src="img/Cliff.jpg" alt="" class="main-image" id="mainImage"> 
+</div>
+
+<div align="center">
+    <a href='#'><img src="img/Cliff.jpg" alt="" class="sub-image"  id="image1"></a>
+    <a href='#'><img src="img/Explore.jpg" alt="" class="sub-image"  id="image2"></a>
+    <a href='#'><img src="img/JellyFish.jpg" alt="" class="sub-image"  id="image3"></a>
+    <a href='#'><img src="img/NightSky.jpg" alt="" class="sub-image"  id="image4"></a>
+</div>
+<br> <br>
+
+        <script src="js/jquery-3.3.1.js"></script>
+        <script src="js/bootstrap.js"></script>
+        <script src ="js/class12.js"></script>
+    </body>
+</html>
